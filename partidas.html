@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evento Liga Corvus | Partidas</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo topo-matches">
+    <div class="topo-inner">
+      <p class="topo-kicker">PARTIDAS OFICIAIS</p>
+      <h1>Partidas do Evento</h1>
+      <p class="sub">Veja os confrontos, resultados e o desempenho individual de cada jogador</p>
+      <div class="top-actions">
+        <a class="btn btn-home-main" href="index.html">Voltar para Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-block section-matches">
+      <div class="section-header section-header-matches">
+        <div>
+          <h2>Lista de partidas</h2>
+          <p>Abra cada confronto para ver lineups, KDA, heróis, itens e variação de MMR</p>
+        </div>
+      </div>
+
+      <div id="matches-list">Carregando partidas...</div>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/heroes.js"></script>
+  <script src="js/items.js"></script>
+  <script src="js/partidas.js"></script>
+</body>
+</html>

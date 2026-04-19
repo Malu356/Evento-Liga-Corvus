@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evento Liga Corvus</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo topo-home">
+    <div class="topo-inner reveal reveal-1">
+      <p class="topo-kicker">EVENTO OFICIAL</p>
+      <h1 id="event-name">EVENTO LIGA CORVUS</h1>
+      <p class="sub">Ranking ao vivo dos lobbys oficiais de final de semana</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-banner hero-banner-home reveal reveal-2">
+      <div class="hero-left hero-left-full">
+        <p class="banner-label">TOP 3 DO EVENTO</p>
+        <h2>Os destaques da rodada</h2>
+        <p class="banner-text">
+          Os jogadores com maior ganho de MMR nos lobbys oficiais da Liga Corvus.
+        </p>
+
+        <div id="top3-highlight" class="top3-highlight">
+          Carregando Top 3...
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block home-insights reveal reveal-3">
+      <div class="section-header">
+        <h2>Painel do Evento</h2>
+        <p>Resumo rápido do que está acontecendo nesta edição</p>
+      </div>
+
+      <div class="event-stats-grid" id="event-stats-grid">
+        Carregando estatísticas...
+      </div>
+
+      <div class="home-extra-grid">
+        <div class="mini-panel mvp-panel">
+          <div class="mini-panel-header">
+            <span class="mini-panel-kicker">MVP DO EVENTO</span>
+            <h3>Destaque</h3>
+          </div>
+          <div id="event-mvp">
+            Carregando MVP...
+          </div>
+        </div>
+
+        <div class="mini-panel meta-panel">
+          <div class="mini-panel-header">
+            <span class="mini-panel-kicker">META DO EVENTO</span>
+            <h3>Top 3 heróis</h3>
+          </div>
+          <div id="meta-evento" class="meta-grid">
+            Carregando meta...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block reveal reveal-4">
+      <div class="section-header">
+        <h2>Ranking Geral</h2>
+        <p>Top 5 do evento atual</p>
+      </div>
+
+      <div class="ranking-premium-wrap">
+        <table class="ranking-premium-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Jogador</th>
+              <th>Vitórias</th>
+              <th>Derrotas</th>
+              <th>Winrate</th>
+              <th>Partidas</th>
+              <th>MMR</th>
+            </tr>
+          </thead>
+          <tbody id="home-ranking-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="botoes reveal reveal-5">
+      <a class="btn btn-home-main" href="partidas.html">Ver Partidas</a>
+      <a class="btn btn-secondary btn-outline-light" href="ranking.html">Ver Ranking</a>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/heroes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

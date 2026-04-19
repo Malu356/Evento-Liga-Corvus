@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evento Liga Corvus | Ranking</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo topo-ranking">
+    <div class="topo-inner">
+      <p class="topo-kicker">CLASSIFICAÇÃO OFICIAL</p>
+      <h1>Ranking do Evento</h1>
+      <p class="sub">Veja quem mais ganhou MMR nos lobbys oficiais da Liga Corvus</p>
+      <div class="top-actions">
+        <a class="btn btn-home-main" href="index.html">Voltar para Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-block section-ranking">
+      <div class="section-header section-header-ranking">
+        <div>
+          <h2>Classificação Geral</h2>
+          <p>Ranking atualizado automaticamente com base nas partidas cadastradas</p>
+        </div>
+
+        <div class="ranking-legend">
+          <span class="legend-pill legend-gold">Top 1</span>
+          <span class="legend-pill legend-silver">Top 2</span>
+          <span class="legend-pill legend-bronze">Top 3</span>
+        </div>
+      </div>
+
+      <div class="ranking-premium-wrap">
+        <table class="ranking-premium-table ranking-table-upgraded">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Jogador</th>
+              <th>Vitórias</th>
+              <th>Derrotas</th>
+              <th>Winrate</th>
+              <th>Partidas</th>
+              <th>MMR</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/ranking.js"></script>
+</body>
+</html>
