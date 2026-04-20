@@ -23,7 +23,16 @@ const EVENT_CONFIG = {
     "337118609": {nick: "Somebody"},
     "779968891": {nick: "CRYME"},
     "122390839": {nick: "Gard"},
-    "1056737735": {nick: "Normanthebest"}
+    "1056737735": {nick: "Normanthebest"},
+    "169011821": {nick: "Nub4ra"},
+    "251002233": {nick: "Gabriel"},
+    "878213636": {nick: "Dk Rusbé"},
+    "1279187093": {nick: "moisa"},
+    "103780867": {nick: "Leks"},
+    "148107692": {nick: "Ragnar"},
+    "150430172": {nick: "beta"},
+    "326930570": {nick: "Ze do taxão"},
+    "489654421": {nick: "Power Ranger"}
   },
 
   matches: [
@@ -150,6 +159,78 @@ const EVENT_CONFIG = {
     "100758466": "normal",
     "1056737735": "normal",
     "22342606": "normal"
+  }
+},
+
+{
+  matchId: 8778594323,
+  teamA: "TIME JUGGERNAUT",
+  teamB: "EZ MONEY",
+  mmrType: {
+    "174409523": "normal",
+    "22342606": "normal",
+    "1417879812": "normal",
+    "169011821": "normal",
+    "369402582": "normal",
+    "98860863": "normal",
+    "100758466": "normal",
+    "251002233": "normal",
+    "108965355": "normal",
+    "878213636": "normal"
+  }
+},
+
+{
+  matchId: 8778663537,
+  teamA: "Corvus Nox",
+  teamB: "TEAM MAFIA",
+  mmrType: {
+    "369402582": "normal",
+    "100758466": "normal",
+    "22342606": "normal",
+    "1279187093": "normal",
+    "103780867": "normal",
+    "148107692": "normal",
+    "174409523": "normal",
+    "94124488": "normal",
+    "1417879812": "normal",
+    "150430172": "normal"
+  }
+},
+
+{
+  matchId: 8778629799,
+  teamA: "EZ MONEY",
+  teamB: "Divonicos",
+  mmrType: {
+    "98860863": "normal",
+    "251002233": "normal",
+    "103780867": "normal",
+    "108965355": "normal",
+    "326930570": "normal",
+    "174409523": "normal",
+    "22342606": "normal",
+    "369402582": "normal",
+    "489654421": "normal",
+    "1417879812": "normal"
+  }
+},
+
+{
+  matchId: 8778702300,
+  teamA: "TEAM MAFIA",
+  teamB: "VAMPIROS SUGADORES",
+  mmrType: {
+    "22342606": "normal",
+    "94124488": "normal",
+    "174409523": "normal",
+    "108965355": "normal",
+    "100758466": "normal",
+    "369402582": "normal",
+    "150430172": "normal",
+    "103780867": "normal",
+    "1417879812": "normal",
+    "337118609": "normal"
   }
 }
   ]
