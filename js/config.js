@@ -35,7 +35,9 @@ const EVENT_CONFIG = {
     "489654421": {nick: "Power Ranger"},
     "1824757749": {nick: "Khzan"},
     "203009194": {nick: "Squash"},
-    "86724917": {nick: "Siri"}
+    "86724917": {nick: "Siri"},
+    "156695887": {nick: "Cunnos"},
+    "1063834463": {nick: "HSP"}
   },
 
   matches: [
@@ -183,5 +185,40 @@ const EVENT_CONFIG = {
       }
     },
 
+    {
+      matchId: 8786544178,
+      teamA: "",
+      teamB: "Discolados",
+      mmrType: {
+        "174409523": "normal",
+        "919217173": "normal",
+        "464672251": "normal",
+        "94124488": "normal",
+        "425171359": "normal",
+        "369402582": "normal",
+        "1063834463": "normal",
+        "100758466": "normal",
+        "156695887": "normal",
+        "96799691": "normal"
+      }
+    },
+
+    {
+      matchId: 8787977551,
+      teamA: "Discolados",
+      teamB: "Taxa de Elite",
+      mmrType: {
+        "96799691": "normal",
+        "464672251": "normal",
+        "1605370486": "normal",
+        "169011821": "normal",
+        "1279187093": "normal",
+        "337118609": "normal",
+        "326930570": "normal",
+        "1270256342": "normal",
+        "108965355": "normal",
+        "1063834463": "normal"
+      }
+    }
   ]
 };
