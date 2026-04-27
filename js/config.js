@@ -37,7 +37,11 @@ const EVENT_CONFIG = {
     "203009194": {nick: "Squash"},
     "86724917": {nick: "Siri"},
     "156695887": {nick: "Cunnos"},
-    "1063834463": {nick: "HSP"}
+    "1063834463": {nick: "HSP"},
+    "1605370486": {nick: "Buchinho"},
+    "425171359": {nick: "Manigold"},
+    "213070699": {nick: "OzZaMa_ShoW"},
+    "404990590": {nick: "Frag0s0"}
   },
 
   matches: [
